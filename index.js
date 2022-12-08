@@ -19,7 +19,7 @@ rp(options)
     for (let user of data.directory_items) {
       userData.push({
         name: user.user.username,
-        likes_received: user.likes_receiveds,
+        roll_no: user.roll_no,
       });
     }
     process.stdout.write("wait");
